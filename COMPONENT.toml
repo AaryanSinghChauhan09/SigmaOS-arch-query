@@ -3,7 +3,7 @@ name = "SigmaOS-arch-query"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "arch-query component"
+description = "SigmaOS SigmaOS-arch-query component"
 upstream = []
 
 [contract]
