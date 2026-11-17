@@ -1,10 +1,13 @@
 [package]
-name = "arch-query"
+name = "sigmaos-arch-query"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS SigmaOS-arch-query component - Inspired by Arch Linux and Debian"
+description = "Package metadata query engine for SigmaOS"
 license = "MIT"
 repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-arch-query"
 
 [dependencies]
-thiserror = "2"
+
+[lib]
+name = "sigmaos_arch_query"
+path = "src/lib.rs"
