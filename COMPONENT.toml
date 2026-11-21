@@ -1,5 +1,5 @@
 [component]
-name = "SigmaOS-arch-query"
+name = "SigmaOS-query"
 tier = 2
 stability = "beta"
 language = "rust"

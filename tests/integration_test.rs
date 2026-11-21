@@ -1,7 +1,7 @@
-// Integration test for SigmaOS-arch-query
+// Integration test for SigmaOS-query
 // Verifies the crate builds and links as a dependency.
 
-use sigmaos_arch_query::{PackageRecord, QueryEngine};
+use sigmaos_query::{PackageRecord, QueryEngine};
 
 #[test]
 fn crate_links_and_runs() {

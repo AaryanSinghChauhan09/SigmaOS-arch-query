@@ -1,6 +1,6 @@
-# SigmaOS-arch-query
+# SigmaOS-query
 
-SigmaOS SigmaOS-arch-query component
+SigmaOS SigmaOS-query component
 
 - **Category:** Components
 - **Engine:** component

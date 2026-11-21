@@ -1,13 +1,13 @@
 [package]
-name = "sigmaos-arch-query"
+name = "sigmaos-query"
 version = "0.1.0"
 edition = "2021"
 description = "Package metadata query engine for SigmaOS"
 license = "MIT"
-repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-arch-query"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-query"
 
 [dependencies]
 
 [lib]
-name = "sigmaos_arch_query"
+name = "sigmaos_query"
 path = "src/lib.rs"

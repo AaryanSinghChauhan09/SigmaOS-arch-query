@@ -1,50 +1,50 @@
-# SigmaOS-SigmaOS-arch-query Component Wiki
+# SigmaOS-SigmaOS-query Component Wiki
 
 ## Overview
-SigmaOS-SigmaOS-arch-query provides Package metadata query engine with name, description, and dependency search for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
+SigmaOS-SigmaOS-query provides Package metadata query engine with name, description, and dependency search for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
 
 ## Principles
 - Single Responsibility
-- SigmaOS-arch-query Abstraction
-- Fail-Fast on SigmaOS-arch-query Initialization Errors
-- Deterministic SigmaOS-arch-query Setup
-- Clear Abstraction Over SigmaOS-arch-query APIs
-- Composition over Inheritance for SigmaOS-arch-query extensions
+- SigmaOS-query Abstraction
+- Fail-Fast on SigmaOS-query Initialization Errors
+- Deterministic SigmaOS-query Setup
+- Clear Abstraction Over SigmaOS-query APIs
+- Composition over Inheritance for SigmaOS-query extensions
 
 ## Architecture
-SigmaOS-SigmaOS-arch-query follows a SigmaOS-arch-query pattern:
-- **SigmaOS-arch-query Core**: Provides SigmaOS-arch-query support, SigmaOS-arch-query management, and SigmaOS-arch-query tracking
-- **Management**: Supports SigmaOS-arch-query management, SigmaOS-arch-query configuration, and SigmaOS-arch-query lifecycle
-- **Tracking**: Supports SigmaOS-arch-query status, SigmaOS-arch-query tracking, and SigmaOS-arch-query lifecycle
-- **Error Handling**: Fail-fast on invalid SigmaOS-arch-query configurations or unsupported SigmaOS-arch-query types
+SigmaOS-SigmaOS-query follows a SigmaOS-query pattern:
+- **SigmaOS-query Core**: Provides SigmaOS-query support, SigmaOS-query management, and SigmaOS-query tracking
+- **Management**: Supports SigmaOS-query management, SigmaOS-query configuration, and SigmaOS-query lifecycle
+- **Tracking**: Supports SigmaOS-query status, SigmaOS-query tracking, and SigmaOS-query lifecycle
+- **Error Handling**: Fail-fast on invalid SigmaOS-query configurations or unsupported SigmaOS-query types
 
 ## API
 The component provides the following public APIs:
--  - Manage a SigmaOS-arch-query by given configuration
--  - Register a SigmaOS-arch-query by given name
--  - Get SigmaOS-arch-query status and SigmaOS-arch-query availability
--  - Track SigmaOS-arch-query management and SigmaOS-arch-query tracking
-- Error types for SigmaOS-arch-query failure scenarios or unsupported SigmaOS-arch-query types
+-  - Manage a SigmaOS-query by given configuration
+-  - Register a SigmaOS-query by given name
+-  - Get SigmaOS-query status and SigmaOS-query availability
+-  - Track SigmaOS-query management and SigmaOS-query tracking
+- Error types for SigmaOS-query failure scenarios or unsupported SigmaOS-query types
 
 ## Test Structure (Arrange-Act-ASSERT)
 All tests follow the AAA pattern:
-1. **Arrange**: Set up test environment with specific SigmaOS-arch-query configuration
-2. **Act**: Execute the code under test (SigmaOS-arch-query init, SigmaOS-arch-query management)
-3. **Assert**: Verify the expected SigmaOS-arch-query results
+1. **Arrange**: Set up test environment with specific SigmaOS-query configuration
+2. **Act**: Execute the code under test (SigmaOS-query init, SigmaOS-query management)
+3. **Assert**: Verify the expected SigmaOS-query results
 
 Example:
 
 
 ## Development
 - Follows Rust best practices with 
-- SigmaOS-arch-query initialization is best-effort; gracefully degrades on unsupported configurations
-- Comprehensive error types for all SigmaOS-arch-query failure scenarios
-- Unit tests provided for SigmaOS-arch-query management and configuration
-- Integration tests for full SigmaOS-arch-query system with actual SigmaOS-arch-query integration
+- SigmaOS-query initialization is best-effort; gracefully degrades on unsupported configurations
+- Comprehensive error types for all SigmaOS-query failure scenarios
+- Unit tests provided for SigmaOS-query management and configuration
+- Integration tests for full SigmaOS-query system with actual SigmaOS-query integration
 
 ## TODO
-- Add support for additional SigmaOS-arch-query types
-- Expand SigmaOS-arch-query capabilities (SigmaOS-arch-query features, SigmaOS-arch-query configurations, SigmaOS-arch-query tracking)
-- Add lifecycle features (SigmaOS-arch-query tracking, SigmaOS-arch-query lifecycle, SigmaOS-arch-query propagation)
-- Create integration tests with actual SigmaOS-arch-query systems and SigmaOS-arch-query integration
-- Implement SigmaOS-arch-query persistence and SigmaOS-arch-query state management
+- Add support for additional SigmaOS-query types
+- Expand SigmaOS-query capabilities (SigmaOS-query features, SigmaOS-query configurations, SigmaOS-query tracking)
+- Add lifecycle features (SigmaOS-query tracking, SigmaOS-query lifecycle, SigmaOS-query propagation)
+- Create integration tests with actual SigmaOS-query systems and SigmaOS-query integration
+- Implement SigmaOS-query persistence and SigmaOS-query state management
